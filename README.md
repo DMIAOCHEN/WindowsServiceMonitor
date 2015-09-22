@@ -27,3 +27,13 @@
     </Server>
   </winSrvMonitor>
 ```
+
+## 服务的安装、启动和卸载
+程序中使用了TopShelf框架，所以命令十分简单，如下:
+```
+WindowsServiceMonitor.exe install //安装
+WindowsServiceMonitor.exe start   //启动
+WindowsServiceMonitor.exe stop    //停止
+WindowsServiceMonitor.exe uninstall //卸载
+
+```
